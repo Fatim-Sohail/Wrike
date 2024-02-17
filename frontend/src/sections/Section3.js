@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Section3 = () => {
   return (
@@ -25,9 +26,11 @@ const Section3 = () => {
           >
             Get Started With Schesti
           </button>
-          <button className="border-2 text-lg md:text-base tracking-wide border-white px-5 py-3 ml-2 text-white rounded-full">
-            Contact Us
-          </button>
+          <Link to="/section-2">
+            <button className="border-2 text-lg md:text-base tracking-wide border-white px-5 py-3 ml-2 text-white rounded-full">
+              Contact Us
+            </button>
+          </Link>
         </div>
       </div>
       <div className="flex w-screen items-center justify-center absolute inset-0 z-0 overflow-hidden">
