@@ -92,12 +92,12 @@ const ContactUsForm = () => {
       <form
         onSubmit={formik.handleSubmit}
         style={{ fontFamily: "Inter, sans-serif" }}
-        className="flex flex-col relative"
+        className="flex flex-col relative max-w-xl mx-auto p-4"
       >
         <div className="mb-4">
           <label
             htmlFor="name"
-            className="block text-gray-700 text-sm font-semibold mb-2"
+            className="block text-gray-700 text-sm font-semibold mb-2 text-left"
           >
             Name
           </label>
@@ -118,7 +118,7 @@ const ContactUsForm = () => {
         <div className="mb-4">
           <label
             htmlFor="email"
-            className="block text-gray-700 text-sm font-semibold mb-2"
+            className="block text-gray-700 text-sm font-semibold mb-2 text-left"
           >
             Email
           </label>
@@ -139,7 +139,7 @@ const ContactUsForm = () => {
         <div className="mb-4 relative">
           <label
             htmlFor="phoneNumber"
-            className="block text-gray-700 text-sm font-semibold mb-2"
+            className="block text-gray-700 text-sm font-semibold mb-2 text-left"
           >
             Phone Number
           </label>
@@ -277,7 +277,7 @@ const ContactUsForm = () => {
         <div className="relative mb-4">
           <label
             htmlFor="company"
-            className="block text-gray-700 text-sm font-semibold mb-2"
+            className="block text-gray-700 text-sm font-semibold mb-2 text-left"
           >
             Company
           </label>
@@ -316,7 +316,7 @@ const ContactUsForm = () => {
         <div className="mb-4">
           <label
             htmlFor="document"
-            className="block text-gray-700 text-sm font-semibold mb-2"
+            className="block text-gray-700 text-sm font-semibold mb-2 text-left"
           >
             Upload Document
           </label>

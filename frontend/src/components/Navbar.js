@@ -36,7 +36,7 @@ const Navbar = () => {
           </button>
         </div>
         {/* Right Side: Contact Us and Login */}
-        <div className="flex space-x-4 mr-32">
+        <div className="flex space-x-4 lg:mr-0">
           <button className="border-2 border-white text-purple-800 px-5 py-3 font-bold text-white rounded-full">
             Contact Us
           </button>
