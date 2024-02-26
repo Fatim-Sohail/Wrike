@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 // Connect to MongoDB
 mongoose.connect(
-  "mongodb+srv://fatim:12345@cluster0.jj5p27d.mongodb.net/wrike?retryWrites=true&w=majority",
+  "mongodb+srv://username:password@cluster0.jj5p27d.mongodb.net/wrike?retryWrites=true&w=majority",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
